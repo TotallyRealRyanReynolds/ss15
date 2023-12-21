@@ -50,6 +50,11 @@ class Human extends Entity {
     this.r_foot.display(0, 0, 32, 32, state);    
     this.l_hand.display(0, 0, 32, 32, state);
     this.r_hand.display(0, 0, 32, 32, state);    
-    translate(-x,-y)
+    this.x=x
+    this.y=y
+  }
+
+  getValues(){
+    return {x: this.x, y: this.y};
   }
 }

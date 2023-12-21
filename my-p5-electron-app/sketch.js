@@ -3,6 +3,8 @@
 let tileSystem = []; // Array to store tiles
 let entitySystem = []; // Array to store
 
+let cameraOffset;
+
 // Tile registry to map tile types to constructors
 const tileRegistry = {
   'lattice': Lattice,
@@ -81,11 +83,19 @@ function draw() {
   clear()
 
   for (let entity of entitySystem) {
-    entity.display();
+    cameraOffset = entity.getValues();
   }
+  console.log(cameraOffset.x, cameraOffset.y)
+
 
   for (let tile of tileSystem) {
+    translate(-cameraOffset.x,-cameraOffset.y)
     tile.display();
+    translate(cameraOffset.x,cameraOffset.y)
+  }
+
+  for (let entity of entitySystem) {
+    entity.display();
   }
 
   if (keyIsDown(82)) {
