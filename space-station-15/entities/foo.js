@@ -5,7 +5,7 @@ class Foo {
         this.y=y
         this.state=5
   
-      this.sprite = new Sprite("/Users/joemama/Desktop/SS15/my-p5-electron-app/assets/textures/toy_mouse.png");
+      this.sprite = new Sprite("/Users/joemama/Desktop/SS15/space-station-15/assets/textures/toy_mouse.png");
   
       this.sprite.preload();    
     }

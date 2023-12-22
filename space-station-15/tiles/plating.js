@@ -1,8 +1,8 @@
 // lattice.js
-class Lattice extends Tile {
+class Plating extends Tile {
   constructor(x, y, type, objects) {
-    super(x, y, 'lattice', objects);
-    this.tileSprite = new Sprite("/Users/joemama/Desktop/SS15/my-p5-electron-app/assets/textures/tiles/lattice.png");
+    super(x, y, 'plating', objects);
+    this.tileSprite = new Sprite("/Users/joemama/Desktop/SS15/space-station-15/assets/textures/tiles/plating.png");
     this.tileSprite.preload();    
   }
 

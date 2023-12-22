@@ -1,0 +1,66 @@
+[
+    {
+        "tiles": [
+            {
+                "type": "lattice",
+                "position": {"x": 2, "y": 10}
+            }
+        ],
+        "entities": [
+            {
+                "subPosition": {"x": 16, "y": 16},
+                "objectName": "Urist McHands",
+                "type": "human",
+                "components": "sex:male"
+            }
+        ]
+    },
+    {
+        "tiles": [
+            {
+                "type": "plating",
+                "position": {"x": 2, "y": 11}
+            }
+        ]
+    },
+    {
+        "tiles": [
+            {
+                "type": "steelTile",
+                "position": {"x": 2, "y": 12}
+            }
+        ]
+    },
+    {
+        "tiles": [
+            {
+                "type": "plating",
+                "position": {"x": 2, "y": 13}
+            }
+        ]
+    },
+    {
+        "tiles": [
+            {
+                "type": "steelTile",
+                "position": {"x": 3, "y": 11}
+            }
+        ]
+    },
+    {
+        "tiles": [
+            {
+                "type": "steelTile",
+                "position": {"x": 3, "y": 12}
+            }
+        ]
+    },
+    {
+        "tiles": [
+            {
+                "type": "steelTile",
+                "position": {"x": 3, "y": 13}
+            }
+        ]
+    }
+]
